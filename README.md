@@ -1,2 +1,3 @@
 # ghpl
- The GoHouseProgrammingLanguage.
+The GoHouseProgrammingLanguage.
+ghpl is developed by GHTeam

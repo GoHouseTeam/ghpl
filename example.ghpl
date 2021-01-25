@@ -1,0 +1,37 @@
+start:
+  import system.logs 
+  say.console "Welcome in the first interpeter of the ghpl."
+  say.console "Version a0.1"
+  say.console " "
+  say.console "File main.ghpl"
+  say.console " "
+  say.console "Switching class to test_1 ..."
+  say.console " "
+
+  go.class test_1
+  system.stop
+  say.console "Error"
+  system.exit
+  
+
+test_1:
+  say.console "Switched to test_1!"
+  say.console " "
+  say.console "Hello, this is a test with variables!"
+  say.console " "
+  say.console "Variable number 1, int 32"
+  int 8
+  int64
+  say.console "Switching class to test_2 ..."
+
+  go.class test_2
+
+  system.stop
+  say.console "Error"
+  system.exit
+
+test_2:
+  say.console "Switched to test_2!"
+  say.console " "
+  say.console "Hello, this is a test with the logs!"
+  create.logger "Ciao"
